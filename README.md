@@ -48,7 +48,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 - cd ./backend
 - composer install
-- php composer serve
+- php artisan serve
 
 ## Banco
 
