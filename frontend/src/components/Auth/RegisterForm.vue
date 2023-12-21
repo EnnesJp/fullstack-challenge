@@ -63,7 +63,7 @@
     </q-input>
 
     <div class="flex items-center justify-between mt-4">
-      <a href="/"> Back to Login </a>
+      <a href="/login"> Back to Login </a>
       <q-btn type="submit" color="primary" :disabled="isRequesting">
         <template v-slot:default v-if="!isRequesting"> Register </template>
         <template v-slot:default v-else>

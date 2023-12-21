@@ -64,7 +64,7 @@ const submit = () => {
         $q.notify({
           type: 'positive',
           position: 'bottom-right',
-          message: res.content.message ?? 'This is a "positive" type notification.'
+          message: res.content.message ?? 'Login successful'
         })
         window.location.href = '/'
       } else {
