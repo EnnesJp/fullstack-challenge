@@ -70,6 +70,6 @@ DB_PASSWORD=*****
 ## Testes
 
 - cd ./backend
-- php composer test
+- php artisan test
 
 >  This is a challenge by [Coodesh](https://coodesh.com/)
